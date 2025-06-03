@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #091520;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* margin: 0;
+    padding: 0; */
+}
+
+.Group-5922 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Top-nav-bar {
+    background: #0c2d46;
+    color: #ffffff; 
+    width: 1280px;
+    height: 40px;
+    padding: 0 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.social-links.circle {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: #fff;
+    color: #002855;
+    border-radius: 50%;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header {
+    width: 1280px;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px 0px #00000014;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.logo-img {
+    width: 32.02px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    height: 20px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #091520;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #0c2d46;
+}
+
+.section-13 {
+    width: 1280px;
+    height: 656px; 
+    position: relative;
+    overflow: visible;
+    margin: 0 auto;
+}
+
+.section-13::before {
+content: "";
+position: absolute;
+top: 0;      
+left: 0;     
+width: 100%;
+height: 100%;
+background-image: url('Background.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+transform: scaleX(-1); 
+z-index: 0;
+}
+
+.section-13 .hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(9, 21, 32, 0.75), rgba(9, 21, 32, 0.75));
+}
+
+.tax-form {
+    position: absolute;
+    top: 110px;
+    left: 900px;
+    width: 365px;
+    height: 460px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0px 8px 24px rgba(24, 39, 75, 0.15), 0px 6px 12px rgba(24, 39, 75, 0.1);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.tax-form h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #091520;
+    margin: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tax-form label {
+    font-size: 0.95rem;
+    color: #091520;
+}
+
+.tax-form input[type="text"],
+.tax-form input[type="email"] {
+    height: 42px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.tax-form input[type="text"]:focus,
+.tax-form input[type="email"]:focus {
+    border-color: #0c2d46;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: black;
+    line-height: 1.4;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-top: 4px;
+}
+
+.checkbox-label span {
+    display: inline;
+    flex: 1;
+}
+
+.terms-link {
+    color: #87ceeb;
+    text-decoration: underline;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-apply {
+    background-color: #0c2d46;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    width: fit-content;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+.btn-apply:hover {
+    background-color: #094263;
+}
+
+.group-5904 {
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    width: 560px;
+    height: 302px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.btn-get-started-button {
+    align-self: flex-start;
+    background-color: #87ceeb;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-get-started-button {
+    background-color: #5dade2;
+}
+
+.section-2 {
+    position: relative;
+    width: 1280px;   
+    height: 390px;
+    top: 0px;      
+    border: 2.8px solid #FFFFFF;
+   background-color:  #F0F9F9; 
+    box-sizing: border-box;
+    white-space: nowrap; 
+  }
+  
+  .section-2-content {
+    position: relative;
+    height: 400px; 
+  }
+  
+  .service-item {
+    position: absolute;
+    top: 96px;
+    width: 368px;
+  }
+  
+  .service-item:nth-child(1) {
+    left: 40px;
+  }
+  
+  .service-item:nth-child(2) {
+    left: 456px;
+  }
+  
+  .service-item:nth-child(3) {
+    left: 872px;
+  }
+  
+  .eclipse-1, .eclipse-2, .eclipse-3 {
+    width: 64px;
+    height: 64px;
+    background-color: #40A5A2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .label-startup, .label-finance-accounting, .label-risk-assurance {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #163651;
+    margin-bottom: 8px;
+  }
+  
+  .support-text-startup, .support-text-finance,.support-text-risk {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #091520;
+    white-space: normal;
+  }
+
+  
